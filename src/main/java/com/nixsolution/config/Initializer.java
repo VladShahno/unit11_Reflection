@@ -7,7 +7,7 @@ import java.util.Properties;
 
 public class Initializer {
 
-    public static void initialization(Object object) throws Exception {
+    public static void initialize(Object object) throws Exception {
         Properties properties = new Properties();
         InputStream is = Initializer.class.getClassLoader().getResourceAsStream("app.properties");
         properties.load(is);

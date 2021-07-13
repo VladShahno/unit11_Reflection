@@ -5,7 +5,7 @@ public class MainApp {
 
     public static void main(String[] args) throws Exception {
         Person person = new Person();
-        Initializer.initialization(person);
+        Initializer.initialize(person);
         System.out.println(person);
     }
 }
